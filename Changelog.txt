@@ -1,0 +1,72 @@
+// Changelog //
+
+Version: V1.0.0
+Release Date:
+
+// Added In Folder //
+
+- Added README.txt in program folder.
+- Added LICENSE.txt in other files folder.
+- Added Changelog.txt in other files folder.
+- Added the tasks pdf in program folder.
+- Added the report in the program folder.
+- Added the programming project schedule in the program folder.
+- Added a folder containing screenshots of testing in the program folder.
+
+// Required Implementation //
+
+- Implemented Player Authorisation - The player now enters their name to be authorised if they are a real player.
+- Implemented Song Selection From List (Later Changed To File) - The game now selects a random song from the external file.
+- Implemented Song Storing - The game now opens a file containing songs which it can use for the game.
+- Implemented Artist Selection From List (Later Changed To File) - The game now selects the correct matching artist for the song the game has chosen from an external file.
+- Implemented Artist Storing - The game now opens a file containing all the artists that match the other files song names.
+- Implemented Artist Printing - The game will now print the name or the artist it has chosen.
+- Implemented Song Printing - The game will now only print the first letter of each word of the song chosen.
+- Implemented Song Guessing - The game will now ask the player what they think the song is.
+- Implemented Guess Chances - The game will now give the player 2 chances to guess the song.
+- Implemented Score System - The game will give the player 3 points if they guess the song correctly on first try or just 1 on the second try.
+- Implemented Display Score - When the player can't guess the song on the second try the game will tell them how many points they got.
+- Implemented Writing Score To File - After the game ends the game will write the players name and the points they got into an external file.
+- Implemented Leaderboard Sorting - After writing the player name and score to a file the game will sort them from largest to smallest. ?
+- Implemented Leaderboard Displaying - After sorting the leaderboard from highest to lowest the game will print the top 5 players and their score. ?
+
+// Extra Implementation //
+
+- Implemented Tkinter GUI - After finishing the game I wanted it to be in a GUI instead of the terminal. //Not Implementing//
+- Implemented Timer - Added a 30 second timer in the top right corner to see how much time you have left before the game continues and takes 1 try off you. //Not Implementing//
+- Implemented Replay - When game finishes added a button to play game again. //Not Implementing//
+- Implemented Skipping - When the player inputs "Skip Song" the game will generate a new song.
+- Implemented Stop - When the player inputs "Stop" the game will stop and display their score.
+- Implemented Do Not Input - When the player enters any of these words in the file the game will not accept it.	
+- Implemented Changelog - When the player inputs "Changelog" the game will display the changelog.
+- Implemented License - When te player inputs "License" the game will displayer the license.
+- Implemented Leaderboard Viewing - When the player inputs "Leaderboard" the game will display the leaderboard.
+- Implemented Quit - When the player inputs "Quit" the game will quit.	
+- Implemented Capitalised Answers - Added the capability to input an answer capitalised or not and get the answer correct.
+- Implemented Non Repeating Songs - If the computer has picked a song and has picked the same one immediately afterwards it will pick a new one making sure it's not the one it just picked. ?
+- Implemented Repeating Songs If No Input - If the player inputed something invalid the game will use the same song instead of getting a new one. ?
+- Implemented Text Align - The player name and their score will now align with eachother in the leaderboard file.
+- Implemented Round Counter - At the end of the game it will tell you how many rounds you have played.
+- Implemented Data Type - If the player inputs the wrong data type the game will say it's not right.
+- Implemented Plural Words - If the player only played 1 round the game will say 1 round instead of rounds.
+- Implemented Capitalised Songs - When the game displays the correct song it will be capitalised instead of all caps.
+- Implemented Capitalised Names - When the game displays the leaderboard the play names will be capitalised instead of all caps.
+
+// Bug Fixes //
+
+- Fixed Inputs - Fixed the ability to input the title of a text document in the game and say it was correct.
+- Fixed Inf Points - Fixed the ability to have an endless supply of points by holding the enter key.
+- Fixed No Input - Fixed the ability to input nothing and have the game continue from authenticating the player.
+- Fixed Point Duplication - Fixed the ability to duplicate points if you stop game and carry on.
+
+// What I Want To Add //
+
+- Installation - I want to add the ability to install this as an actual software and have an installation menu.
+- Desktop Shortcut - I want the installation to add a desktop shortcut.
+- Addons - I want to add this program to my main program as an addon.
+- Password - I want to add a password to the program to make it password protected.
+
+// Note //
+
+- Anything that is marked with a "?" I don't know how to do.
+- Anything that is marked with "//Not Implementing//" I am not going to implement.

@@ -1,0 +1,3 @@
+// Controls //
+Stop - Stops the game.
+Skip - Skips the current song.

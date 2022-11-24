@@ -1,0 +1,32 @@
+// Other Code //
+
+openSansLight = "Fonts\\OpenSans-Light.ttf"
+
+def tkinterGUI():
+    #// Tkinter GUI //#
+
+    root = tkinter.Tk()
+    root.title("Programming Project Y11 - Task 1 - Music Quiz")
+    root.geometry("1280x720")
+    root.iconbitmap("") #ICO type image for icon
+
+    font1 = tkinter.font.Font(family = "Century Gothic", size = 24)
+    label = tkinter.Label(root, text = "PASSWORD", font = (font1))
+    #label.place(relx = 0.0, rely = 1.0, anchor = "n")
+
+    inputWindow = tkinter.Entry(root)    
+
+
+    root.mainloop()
+
+def sortLeaderboard():
+    #// Sort Leaderboard //#
+    with open(leaderboardTxt, "r") as leaderboard:
+        leaderboardData = leaderboard.readlines()
+        leaderboardData.sort(reverse = True)
+        leaderboard.close()
+    with open(leaderboardTxt, "w") as leaderboard:
+        for item in leaderboardData:
+            leaderboard.write("%s\n" % item)
+        leaderboard.close()
+        print(leaderboard)
